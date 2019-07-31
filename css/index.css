@@ -136,6 +136,13 @@ body {
   font-size: 62.5%;
   font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
 }
+.section-divider {
+  display: flex;
+  padding: 2rem 0;
+}
+.paragraph-font-size {
+  font-size: 1.5rem;
+}
 div.container {
   max-width: 1000px;
   margin: 0 auto;
@@ -147,8 +154,8 @@ div.container p {
 }
 div.container header nav {
   display: flex;
-  justify-content: flex-end;
   padding: 2rem 0;
+  justify-content: flex-end;
 }
 div.container header nav a {
   display: flex;
@@ -196,11 +203,6 @@ div.container section.middle-content div ul li {
   border-bottom: 1px solid #aaa;
   padding: 1rem;
 }
-div.container section.middle-content div ul li {
-  font-size: 1.5rem;
-  border-bottom: 1px solid #aaa;
-  padding: 1rem;
-}
 div.container section.middle-content div ul li:last-child {
   border-bottom: 0;
 }
@@ -222,7 +224,6 @@ div.container section.bottom-content table tr {
   border-top: 1px solid #aaa;
 }
 div.container section.bottom-content table tr:last-child {
-  font-size: 1.5rem;
   border-bottom: 1px solid #aaa;
 }
 div.container section.bottom-content table th,

@@ -147,25 +147,33 @@ body {
   font-family: @font-stack;
 }
 
+.section-divider {
+  display: flex;
+  padding: 2rem 0;
+}
+
+.paragraph-font-size {
+  font-size: 1.5rem;
+}
+
 div.container {
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 2rem;
 
   p {
-    font-size: 1.5rem;
+    .paragraph-font-size();
     line-height: 1.5;
   }
 
   header nav {
-    display: flex;
+    .section-divider();
     justify-content: flex-end;
-    padding: 2rem 0;
 
     a {
       display: flex;
       padding: 0 2rem;
-      font-size: 1.5rem;
+      .paragraph-font-size();
     }
   }
 
@@ -196,8 +204,7 @@ div.container {
 
   section.middle-content,
   section.bottom-content {
-    display: flex;
-    padding: 2rem 0;
+    .section-divider();
     justify-content: space-between;
   }
 
@@ -214,13 +221,7 @@ div.container {
     }
 
     ul li {
-      font-size: 1.5rem;
-      border-bottom: 1px solid #aaa;
-      padding: 1rem;
-    }
-
-    ul li {
-      font-size: 1.5rem;
+      .paragraph-font-size();
       border-bottom: 1px solid #aaa;
       padding: 1rem;
     }
@@ -246,12 +247,11 @@ div.container {
     }
 
     table tr {
-      font-size: 1.5rem;
+      .paragraph-font-size();
       border-top: 1px solid #aaa;
     }
 
     table tr:last-child {
-      font-size: 1.5rem;
       border-bottom: 1px solid #aaa;
     }
 
@@ -274,7 +274,7 @@ div.container {
     background-color: @footer-background-color;
     color: white;
     text-align: center;
-    font-size: 1.5rem;
+    .paragraph-font-size();
     padding: 1.5rem;
   }
 }
