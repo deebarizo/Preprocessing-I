@@ -143,7 +143,7 @@ div.container {
 }
 div.container p {
   font-size: 1.5rem;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 div.container header nav {
   display: flex;
@@ -185,7 +185,7 @@ div.container section.middle-content div {
   width: 48%;
 }
 div.container section.middle-content div p {
-  padding-bottom: 1.75rem;
+  padding-bottom: 2.25rem;
 }
 div.container section.middle-content div ul {
   border: 1px solid #aaa;
