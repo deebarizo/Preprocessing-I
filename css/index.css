@@ -134,6 +134,7 @@ html,
 body {
   height: 100%;
   font-size: 62.5%;
+  font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
 }
 div.container {
   max-width: 1000px;
