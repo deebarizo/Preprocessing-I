@@ -157,6 +157,11 @@ div.container header nav {
   padding: 2rem 0;
   justify-content: flex-end;
 }
+@media (max-width: 500px) {
+  div.container header nav {
+    justify-content: center;
+  }
+}
 div.container header nav a {
   display: flex;
   padding: 0 2rem;
@@ -188,8 +193,19 @@ div.container section.bottom-content {
   padding: 2rem 0;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  div.container section.middle-content,
+  div.container section.bottom-content {
+    flex-direction: column;
+  }
+}
 div.container section.middle-content div {
   width: 48%;
+}
+@media (max-width: 500px) {
+  div.container section.middle-content div {
+    width: 100%;
+  }
 }
 div.container section.middle-content div p {
   padding-bottom: 2.25rem;
@@ -233,6 +249,12 @@ div.container section.bottom-content table td {
 div.container section.bottom-content table th {
   text-align: left;
   font-weight: 700;
+}
+@media (max-width: 500px) {
+  div.container section.bottom-content table th:nth-child(3),
+  div.container section.bottom-content table td:nth-child(3) {
+    display: none;
+  }
 }
 div.container section.bottom-content div.contact {
   padding-top: 2rem;

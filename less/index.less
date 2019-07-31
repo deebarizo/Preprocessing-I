@@ -170,6 +170,10 @@ div.container {
     .section-divider();
     justify-content: flex-end;
 
+    @media (max-width: 500px) {
+      justify-content: center;
+    }
+
     a {
       display: flex;
       padding: 0 2rem;
@@ -206,10 +210,18 @@ div.container {
   section.bottom-content {
     .section-divider();
     justify-content: space-between;
+
+    @media (max-width: 500px) {
+      flex-direction: column;
+    }
   }
 
   section.middle-content div {
     width: 48%;
+
+    @media (max-width: 500px) {
+      width: 100%;
+    }
 
     p {
       padding-bottom: 2.25rem;
@@ -263,6 +275,13 @@ div.container {
     table th {
       text-align: left;
       font-weight: 700;
+    }
+
+    @media (max-width: 500px) {
+      table th:nth-child(3),
+      table td:nth-child(3) {
+        display: none;
+      }
     }
 
     div.contact {
