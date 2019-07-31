@@ -151,124 +151,130 @@ div.container {
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 2rem;
-}
 
-header nav {
-  display: flex;
-  justify-content: flex-end;
-  padding: 2rem 0;
-}
+  p {
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
 
-header nav a {
-  display: flex;
-  padding: 0 2rem;
-  font-size: 1.5rem;
-}
+  header nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem 0;
 
-section.top-content {
-  background-color: @top-content-background-color;
-  padding: 2.5rem;
-}
+    a {
+      display: flex;
+      padding: 0 2rem;
+      font-size: 1.5rem;
+    }
+  }
 
-section.top-content h1 {
-  font-size: 5rem;
-  padding: 1.5rem 0;
-}
+  section.top-content {
+    background-color: @top-content-background-color;
+    padding: 2.5rem;
 
-section.top-content h2 {
-  font-size: 2rem;
-  padding: 0.2rem 0;
-}
+    h1 {
+      font-size: 5rem;
+      padding: 1.5rem 0;
+    }
 
-section.top-content p {
-  padding: 1rem 0;
-}
+    h2 {
+      font-size: 2rem;
+      padding: 0.2rem 0;
+    }
 
-p {
-  font-size: 1.5rem;
-  line-height: 1.2;
-}
+    p {
+      padding: 1rem 0;
+    }
 
-section.top-content button {
-  padding: 1rem;
-  border-radius: 0.5rem;
-  cursor: pointer;
-}
+    button {
+      padding: 1rem;
+      border-radius: 0.5rem;
+      cursor: pointer;
+    }
+  }
 
-section.middle-content,
-section.bottom-content {
-  display: flex;
-  padding: 2rem 0;
-  justify-content: space-between;
-}
+  section.middle-content,
+  section.bottom-content {
+    display: flex;
+    padding: 2rem 0;
+    justify-content: space-between;
+  }
 
-section.middle-content div {
-  width: 48%;
-}
+  section.middle-content div {
+    width: 48%;
 
-section.middle-content p {
-  padding-bottom: 1.75rem;
-}
+    p {
+      padding-bottom: 1.75rem;
+    }
 
-section.middle-content h3,
-section.bottom-content h3 {
-  font-size: 1.8rem;
-  padding-bottom: 1rem;
-  font-weight: 700;
-}
+    ul {
+      border: 1px solid #aaa;
+      border-radius: 5px;
+    }
 
-section.middle-content ul {
-  border: 1px solid #aaa;
-  border-radius: 5px;
-}
+    ul li {
+      font-size: 1.5rem;
+      border-bottom: 1px solid #aaa;
+      padding: 1rem;
+    }
 
-section.middle-content ul li {
-  font-size: 1.5rem;
-  border-bottom: 1px solid #aaa;
-  padding: 1rem;
-}
+    ul li {
+      font-size: 1.5rem;
+      border-bottom: 1px solid #aaa;
+      padding: 1rem;
+    }
 
-section.middle-content ul li:last-child {
-  border-bottom: 0;
-}
+    ul li:last-child {
+      border-bottom: 0;
+    }
+  }
 
-section.bottom-content {
-  flex-direction: column;
-}
+  section.middle-content h3,
+  section.bottom-content h3 {
+    font-size: 1.8rem;
+    padding-bottom: 1rem;
+    font-weight: 700;
+  }
 
-section.bottom-content div.work-history,
-section.bottom-content div.work-history table {
-  width: 100%;
-}
+  section.bottom-content {
+    flex-direction: column;
 
-section.bottom-content table tr {
-  font-size: 1.5rem;
-  border-top: 1px solid #aaa;
-}
+    div.work-history,
+    div.work-history table {
+      width: 100%;
+    }
 
-section.bottom-content table tr:last-child {
-  font-size: 1.5rem;
-  border-bottom: 1px solid #aaa;
-}
+    table tr {
+      font-size: 1.5rem;
+      border-top: 1px solid #aaa;
+    }
 
-section.bottom-content table th,
-section.bottom-content table td {
-  padding: 1rem 2rem 1rem 1rem;
-}
+    table tr:last-child {
+      font-size: 1.5rem;
+      border-bottom: 1px solid #aaa;
+    }
 
-section.bottom-content table th {
-  text-align: left;
-  font-weight: 700;
-}
+    table th,
+    table td {
+      padding: 1rem 2rem 1rem 1rem;
+    }
 
-section.bottom-content div.contact {
-  padding-top: 2rem;
-}
+    table th {
+      text-align: left;
+      font-weight: 700;
+    }
 
-footer div.copyright {
-  background-color: @footer-background-color;
-  color: white;
-  text-align: center;
-  font-size: 1.5rem;
-  padding: 1.5rem;
+    div.contact {
+      padding-top: 2rem;
+    }
+  }
+
+  footer div.copyright {
+    background-color: @footer-background-color;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+  }
 }
